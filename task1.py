@@ -5,10 +5,10 @@
 # print(' '.join([word for word in my_str if 'абв' not in word]))
 
 
-my_str ='Куда уехал цирк он был еще вчера И ветер не успел со стен сорвать афиши'.split()
+my_str ='Кудабв уехал цирк он абвыл еще абвчера И абветер не успел со стен сорабвабвть абвфиши'.split()
 
 new_str = []
-fragment = ('а' or 'б' or 'в')
+fragment = ('абв')
 for word in my_str:
     if fragment not in word:
         new_str.append(word)
